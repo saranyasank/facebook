@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/fb.html? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./facebook_files/fb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"></div> 
+            <a class="logo" href="http://127.0.0.1:5500/fb.html">facebook</a>
+            <button class="button">
+                <p> <a class="para" href="http://127.0.0.1:5500/forgott%20password.html">create a new account</a></p>
+            </button>
+            <div class="login">
+            <form action="http://127.0.0.1:5500/fb.html?">
+            <table class="login-controls">
+                <tbody><tr>
+                    <td>Email or mobile</td>
+                    <td>password</td>
+                </tr>
+                   <tr>
+                      <td><input type="text"></td>
+                          <td><input type="text"></td>
+                          <td><input class="submit" type="submit" value="login" <="" td="">
+                          </td></tr><tr>
+                          <td></td>
+                          <td><a class="forgotten" href="http://127.0.0.1:5500/forgott%20password.html">forgott password?</a></td>
+                          </tr>
+                
+            </tbody></table>
+            </form></div>
+        </div>
+            </div>
+
+        
+
+    
+      
+    <div class="main-body">
+        <div class="left-section">
+            <p>
+                </p><div class="para1">Facebook helps you connect and share with the
+                    people in your life.<br><br>
+                    <img src="./facebook_files/face.jpg">
+                </div>
+            <p></p>
+        </div>
+        <div class="right-section">
+        <p1>
+            <div class="para2">Create an account</div>
+            <div class="para3">It's quick and easy.</div>
+            <br>
+            
+            <input type1="text" placeholder="First name">
+            <input type2="text" placeholder="surname"><br><br>
+            <input type3="number,email" placeholder="mobile number or email address"><br><br>
+            <input type="password" value="FakePSW" id="myInput" placeholder="New password">
+            
+
+
+            <div class="custom">
+                <label class="birth">Birthday<br>
+            <select>
+                <option values="">Day</option>
+                <option values="">1</option>
+                <option values="">2</option></select>
+                <select name="" id="">
+                <option values="">month</option>
+                <option values="">jan</option>
+                <option values="">feb</option></select><p1>
+                <select>
+                    <option values="">year</option>
+                    <option values="">2000</option>
+                    <option values="">2001</option></select>
+                </p1></label><br><br>
+                <label class="gender">Gender<br></label>
+        <input class="radio" type="radio" name="gender"><label>male</label>
+        <input type="radio" name="gender"><label>female</label>
+        <input type="radio" name="gender">Other<br><br>
+        <p>
+            </p><div class="para3">
+                By clicking Sign up,you agree to our <a class="terms" href="http://127.0.0.1:5500/forgotton%20password.html">Terms,Data policy and Cookie Policy.</a><br>
+                You may receive SMS notifications from us and can opt out at any time.<br><br>
+                    <input class="sign" type="submit" value="sign in">
+            </div>
+            </div>
+
+        </p1></div>
+            
+            
+    
+        </div>
+        
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
